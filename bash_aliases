@@ -1,4 +1,5 @@
 # MATT DEV ENV
+echo 'sourced custom aliases';
 
 # MANAGE BASH PROFILE
 alias oz='nano ~/.bashrc'
