@@ -10,6 +10,7 @@ alias sz='source ~/.bashrc; echo sourced'
 export DOWN=~/Downloads/
 export DESKTOP=~/Desktop/
 export CS=~/cs/
+export NOTES=~/notes/
 
 # MANAGE PYTHON VENV
 alias ve='virtualenv .venv'
