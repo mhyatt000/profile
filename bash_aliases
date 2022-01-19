@@ -5,6 +5,8 @@ echo 'sourced custom aliases';
 alias oz='nano ~/.bashrc'
 alias oza='nano ~/.bash_aliases'
 alias sz='source ~/.bashrc; echo sourced'
+alias sagi='sudo apt-get install'
+
 
 # ENV VARIABLES
 export DOWN=~/Downloads/
