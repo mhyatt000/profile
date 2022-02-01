@@ -33,6 +33,7 @@ alias oa='open -a atom';
 alias ot='open -a terminal';
 alias of='open -R'; # reveal in finder
 alias og='open -a Google\ Chrome';
+alias or='open -a RStudio';
 
 # CONVENIENCE COMMANDS
 alias zip='zip -r'
