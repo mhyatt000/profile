@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/Users/matthewhyatt/cs/ssl/SCORED/reproducibility/results'
+let g:netrw_dirhist_4='/Users/matthewhyatt/cs/ssl/icse23/assets/figures/tasks'
+let g:netrw_dirhist_3='/Users/matthewhyatt/cs/ssl/icse23/motivation'
+let g:netrw_dirhist_2='/Users/matthewhyatt/cs/ssl/low-power-cv/focused-conv/image_depth_masking'
+let g:netrw_dirhist_1='/Users/matthewhyatt/cs/ssl/low-power-cv/LayerCAM-jittor/utils'
+let g:netrw_dirhist_0='/Users/matthewhyatt/cs/ssl/low-power-cv/LayerCAM-jittor/cam'
+let g:netrw_dirhist_9='/Users/matthewhyatt/cs/ssl/low-power-cv/LayerCAM-jittor/utils'
+let g:netrw_dirhist_8='/Users/matthewhyatt/cs/ssl/icse23/motivation'
+let g:netrw_dirhist_7='scp://hyattm@dl-berlin.ecn.purdue.edu/CS/icse23/reproducibility/'
+let g:netrw_dirhist_6='scp://hyattm@dl-berlin.ecn.purdue.edu/CS/icse23/'

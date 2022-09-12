@@ -2,8 +2,8 @@
 echo 'sourced custom aliases';
 
 # MANAGE BASH PROFILE
-alias oz='nano ~/.bashrc'
-alias oza='nano ~/.bash_aliases'
+alias oz='vim ~/.bashrc'
+alias oza='vim ~/.bash_aliases'
 alias sz='source ~/.bashrc; echo sourced'
 alias sagi='sudo apt-get install'
 
@@ -12,10 +12,11 @@ alias sagi='sudo apt-get install'
 export DOWN=~/Downloads/
 export DESKTOP=~/Desktop/
 export CS=~/cs/
+export DATA=$CS/.datasets/
 export NOTES=~/notes/
 
 # MANAGE PYTHON VENV
-alias ve='virtualenv .venv'
+alias ve='python3 -m venv .venv'
 alias ae='deactivate &> /dev/null; source ./.venv/bin/activate'
 alias de='deactivate'
 
@@ -29,11 +30,9 @@ alias mkdir='mkdir -v';
 alias formula='open -a Google\ Chrome https://formulae.brew.sh/formula/r';
 
 ## OPENING FILES
-alias oa='open -a atom';
 alias ot='open -a terminal';
 alias of='open -R'; # reveal in finder
 alias og='open -a Google\ Chrome';
-alias or='open -a RStudio';
 
 # CONVENIENCE COMMANDS
 alias zip='zip -r'
