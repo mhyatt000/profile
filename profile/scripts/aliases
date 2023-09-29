@@ -1,12 +1,13 @@
 
 # MANAGE ZSH PROFILE
 alias oz='vim ~/.zshrc'
-alias oza='vim ~/.zsh_aliases'
-alias sz='source ~/.zshrc; echo sourced'
+alias oza='vim ~/profile/profile/scripts/aliases'
+alias sz='source ~/.zshrc'
 
 alias agi='apt-get install'
 alias sagi='sudo apt-get install'
 
+alias deploy='git add -A ; git commit -m deploy ; git push ;'
 
 # ENV VARIABLES
 export DOWN=~/Downloads/
@@ -39,3 +40,4 @@ alias zip='zip -r'
 alias tree='clear;tree --dirsfirst -CN'
 
 for file in "$(dirname $0)"/../omzsh/*; do source $file; done
+
