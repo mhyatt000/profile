@@ -1,8 +1,13 @@
 # PROFILE
 bash profile and other env steup files
 
-## DJIKSTRA.CS.LUC.EDU
+### suggestions
 
-idk what this is ... but might have useful setups
+* [ZVM zsh vi mode](https://github.com/jeffreytse/zsh-vi-mode)
+* [oh-my-zsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
 
-- i wouldn't delete it yet
+z: Can be used in Bash by sourcing its script in .bashrc.
+autojump: Also Bash-compatible; install via a package manager and update .bashrc.
+python: You can manually add aliases and functions to your .bashrc.
+fzf: Totally compatible with Bash; just install and configure in .bashrc.
+vi-mode: Enable with set -o vi in your .bashrc.
