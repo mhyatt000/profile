@@ -10,13 +10,13 @@ setup(
     url='https://github.com/mhyatt000/profile',
     packages=find_packages(),
     install_requires=[
-        'matplotlib',
+        # 'matplotlib',
     ],
-    entry_points={
-        'console_scripts': [
-            'profile = profile.main:main',
-        ],
-    },
+    # entry_points={
+        # 'console_scripts': [
+            # 'profile = profile.main:main',
+        # ],
+    # },
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',

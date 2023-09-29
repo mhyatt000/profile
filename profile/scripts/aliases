@@ -1,10 +1,10 @@
-# MATT DEV ENV
-echo 'sourced custom aliases';
 
-# MANAGE BASH PROFILE
-alias oz='vim ~/.bashrc'
-alias oza='vim ~/.bash_aliases'
-alias sz='source ~/.bashrc; echo sourced'
+# MANAGE ZSH PROFILE
+alias oz='vim ~/.zshrc'
+alias oza='vim ~/.zsh_aliases'
+alias sz='source ~/.zshrc; echo sourced'
+
+alias agi='apt-get install'
 alias sagi='sudo apt-get install'
 
 
@@ -16,9 +16,9 @@ export DATA=$CS/.datasets/
 export NOTES=~/notes/
 
 # MANAGE PYTHON VENV
-alias ve='python3 -m venv .venv'
-alias ae='deactivate &> /dev/null; source ./.venv/bin/activate'
-alias de='deactivate'
+# alias ve='python3 -m venv .venv'
+# alias ae='deactivate &> /dev/null; source ./.venv/bin/activate'
+# alias de='deactivate'
 
 # VERBOSE COMMANDS
 alias mv='mv -v';
