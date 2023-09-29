@@ -37,3 +37,5 @@ alias og='open -a Google\ Chrome';
 # CONVENIENCE COMMANDS
 alias zip='zip -r'
 alias tree='clear;tree --dirsfirst -CN'
+
+for file in "$(dirname $0)"/../omzsh/*; do source $file; done
