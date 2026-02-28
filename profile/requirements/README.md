@@ -1,3 +1,0 @@
-# REQUIREMENTS
-
-python project requirements
